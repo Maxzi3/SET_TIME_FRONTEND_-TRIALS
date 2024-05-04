@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            color: white;
+            padding: 1rem;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        li {
+            margin: 0 3rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .btn0 {
+            background-color: blueviolet;
+            border: none;
+            padding: 0.5rem;
+            color: white;
+        }
+
+        .container {
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 5rem;
+            flex-wrap: wrap;
+        }
+
+        .flexitems1 {
+            width: 300px;
+            height: 300px;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        .logo{
+            font-size: 25px;
+            color: blueviolet;
+        }
+
+    #headpic{ border: 2px dashed blueviolet;
+    }
+
+        img {
+            width: 150%;
+            /* border: 2px dashed blueviolet; */
+            border-radius: 8%;
+            margin-top: -2rem;
+        }
+
+        .item1 {
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        .bt1 {
+            background-color: blueviolet;
+            color: white;
+            padding: 0.5rem;
+            border: none;
+        }
+
+        .bt2 {
+            background-color: whitesmoke;
+            color: black;
+            padding: 0.5rem;
+            border: none;
+        }
+
+        .container1 {
+            width: 100%;
+            background-color: black;
+            display: flex;
+            gap: 8rem;
+            margin: 3rem 0;
+            padding: 1rem;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        select {
+            padding: 0.5rem;
+            border: none;
+            color: black;
+        }
+
+        .bt3 {
+            background-color: blueviolet;
+            border: none;
+            padding: 0.5rem;
+            color: white;
+        }
+
+        .container2 {
+            display: flex;
+            width: 100%;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            gap: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .flexitem2 {
+            width: 280px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: blue;
+            align-items: center;
+            /* padding: 10px; */
+        }
+
+        .item3 {
+            background-color: white;
+            border: 0.5px solid;
+            border-radius: 15%;
+        }
+
+        .item4 {
+            background-color: blueviolet;
+            border: 0.5px solid;
+            border-radius: 15%;
+        }
+
+        .item5 {
+            background-color: white;
+            border: 0.5px solid;
+            border-radius: 15%;
+        }
+
+        h1 {
+            /* padding: 2rem; */
+        }
+
+        .h1p {
+            padding: 2rem;
+        }
+
+        .bt4 {
+            background-color: blueviolet;
+            border: none;
+            padding: 0.5rem;
+            color: white;
+
+            /* margin-top: -2rem;
+            margin-left: 2rem; */
+        }
+
+        .bt5 {
+            background-color: white;
+            border: none;
+            padding: 0.5rem;
+            color: black;
+            align-items: center;
+        }
+
+        .bt6 {
+            background-color: blueviolet;
+            border: none;
+            padding: 0.5rem;
+            color: white;
+        }
+
+        .heading {
+            padding: 2rem;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        .flexitem2 i.uil {
+            font-size: 40px;
+        }
+
+        .icon1 {
+            margin-top: -3.8rem;
+            margin-bottom: 2rem;
+            border: 1px solid;
+            border-radius: 8%;
+            padding: 5px;
+        }
+
+        .container3 {
+            display: flex;
+            width: 90%;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+            padding: 2.5rem;
+            gap: 0.5rem;
+            margin-top: 2rem;
+            margin-left: 4rem;
+            flex-wrap: wrap;
+        }
+
+        .flexitem3 {
+            width: 12rem;
+            height: 8rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid;
+            border-radius: 15%;
+            /* background-color: blue; */
+            align-items: center;
+            padding: 1rem;
+        }
+
+        .item6 {
+            background-color: white;
+        }
+
+        .item7 {
+            background-color: blueviolet;
+        }
+
+        .item8 {
+            background-color: white;
+        }
+
+        .item9 {
+            background-color: blueviolet;
+        }
+
+        .flexitem3 i.uil {
+            font-size: 20px;
+        }
+
+        .icon1 {
+            margin-top: -3.8rem;
+            margin-bottom: 2rem;
+            border: 1px solid;
+            border-radius: 8%;
+            padding: 5px;
+        }
+
+        h5 {
+            padding: 1rem;
+            font-size: 18px;
+        }
+
+        .container4 {
+            display: flex;
+            width: 100%;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            margin-top: 3rem;
+            /* margin-left: 1rem; */
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .flexitem4 {
+            background-color: white;
+            width: 40%;
+            /* border: 1px solid; */
+            border-radius: 20%;
+            height: auto;
+            padding: 2rem;
+            margin-left: -8rem;
+            margin-top: -2rem;
+
+        }
+
+        .item10 {
+            padding: 0.5rem;
+            font-size: 18px;
+            margin-top: -4rem;
+            margin-left: 3rem;
+            /* margin-right: -3rem; */
+        }
+
+        .item11 {
+            width: 20%;
+        }
+
+        .container5 {
+            display: flex;
+            width: 90%;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            margin-top: 3rem;
+            margin-left: 6rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .flexitem5 {
+            background-color: white;
+            width: 50%;
+            /* border: 1px solid; */
+            /* border-radius: 10%; */
+            height: auto;
+            padding: 5rem;
+            margin-left: 6rem;
+            margin-top: -2rem;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .item13 {
+            padding: 8rem;
+            font-size: 20px;
+            /* margin: -10rem; */
+            margin-top: -10rem;
+            margin-left: -12rem;
+            margin-right: -6rem;
+            margin-bottom: -4rem;
+            text-align: left;
+            align-items: center;
+
+        }
+
+        .item12 {
+            width: 20%;
+        }
+        #fotpic{
+            width: 5%;
+            border-radius: 70%;
+            margin-top: -90rem;
+        }
+        
+        .container6{
+            display: flex;
+            width: 60%;
+            height: auto;
+            justify-content: space-around;
+            align-items: center;
+            /* padding: 2rem; */
+            margin-top: 3rem;
+            margin-left: 16rem;
+            flex-wrap: wrap;
+            
+        }
+
+        .flexitem7{
+            background-color: white;
+            width: 40%;
+            border: 1px solid;
+            border-radius: 10%;
+            height: auto;
+            padding: 1rem;
+            font-size: 18px;
+            /* margin-left: 1rem; */
+            /* margin-top: -2rem; */
+            /* justify-content: space-around; */
+            /* align-items: center; */
+        }
+            .item14 {
+                margin-right:-8rem;
+            }
+        .item15{
+            /* padding:1rem; */
+            /* font-size: 20px; */
+            /* margin: -10rem; */
+            /* text-align: left; */
+            /* align-items: center; */
+
+        }
+        .container7{
+            display: flex;
+            width: 60%;
+            height: auto;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 1.5rem;
+            margin-left: 16rem;
+            flex-wrap: wrap;
+            /* padding: 2rem; */
+        }
+
+        .flexitem8 {
+         background-color: white;
+            width: 40%;
+            border: 1px solid;
+            border-radius: 10%;
+            height: auto;
+            padding: 1rem;
+            font-size: 18px;
+        }
+        .item17{
+            margin-left: -8rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Maxzi</div>
+        <ul>
+            <li><a href="###">Home</a></li>
+            <li><a href="###">Property</a></li>
+            <li><a href="###">About</a></li>
+            <li><a href="###">Listing</a></li>
+            <li><a href="###">Blog</a></li>
+        </ul>
+        <button class="btn0">Contact us</button>
+    </header>
+    <div class="container">
+        <div class="flexitems1 item1">
+            <h1>Find a Mansion thats perfect for you</h1>
+            <p class="h1p">
+                We Provide a complex for this sale purchase for the Portion of Real
+                Estate
+            </p>
+            <button class="bt1">Get Started</button>
+            <button class="bt2">Explore</button>
+        </div>
+        <div class="flexitems1 item2">
+            <img src="./images/pexels-pablo-ezequiel-nieva-933807-3179911.jpg" alt="Picture" id="headpic"/>
+        </div>
+    </div>
+    <div class="container1">
+        <select name="" id="">
+            <option value="">Location</option>
+            <option value="">iyana ipaja</option>
+        </select>
+        <select name="" id="">
+            <option value="">Type</option>
+             <option value="">Duplex</option>
+        </select>
+        <select name="" id="">
+            <option value="">Price</option>
+             <option value="">2million</option>
+        </select>
+        <button class="bt3">Search</button>
+    </div>
+    <div class="heading">
+        <h1>Featured properties</h1>
+        <p>Browse our Latest hot offers.</p>
+    </div>
+    <div class="container2">
+        <div class="flexitem2 item3">
+            <div class="icon1">
+                <i class="uil uil-house-user"></i>
+            </div>
+            <h1>Buy a Mansion</h1>
+            <p class="h1p">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+                possimus praesentium labore optio excepturi eos.
+            </p class="h1p">
+            <button class="bt4">Find a mansion</button>
+        </div>
+        <div class="flexitem2 item4">
+            <div class="icon1">
+                <i class="uil uil-house-user"></i>
+            </div>
+            <h1>Rent a Mansion</h1>
+            <p class="h1p">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+                possimus praesentium labore optio excepturi eos.
+            </p>
+            <button class="bt5">Find a mansion</button>
+        </div>
+        <div class="flexitem2 item5">
+            <div class="icon1">
+                <i class="uil uil-house-user"></i>
+            </div>
+            <h1>Neighborhoods</h1>
+            <p class="h1p">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+                possimus praesentium labore optio excepturi eos.
+            </p>
+            <button class="bt6">Learn More</button>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="flexitem3 item6">
+            <i class="uil uil-shield"></i>
+            <h5>Lorem ipsum dolor sit.</h5>
+        </div>
+        <div class="flexitem3 item7">
+            <i class="uil uil-lightbulb-alt"></i>
+            <h5>Lorem ipsum dolor sit.</h5>
+        </div>
+        <div class="flexitem3 item8">
+            <i class="uil uil-house-user"></i>
+            <h5>Lorem ipsum dolor sit.</h5>
+        </div>
+        <div class="flexitem3 item9">
+            <i class="uil uil-search-alt"></i>
+            <h5>Lorem ipsum dolor sit.</h5>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="flexitem4">
+            <p class="item10">
+                <strong> Lorem ipsum dolor sit amet consectetur</strong> adipisicing elit. Aliquam, <strong>wahala
+                    eius.</strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit laboriosam, unde
+                quibusdam rem odit soluta voluptatum autem? Atque aliquam assumenda incidunt consequatur neque voluptate
+                veritatis?
+            </p>
+
+        </div>
+        <div class="item11">
+            <img src="./images/pexels-adrien-olichon-1257089-6395415.jpg" alt="picture">
+        </div>
+    </div>
+    <div class="heading">
+        <h1>Testimonials</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="container5">
+        <div class="item12">
+            <img src="./images/pexels-pablo-ezequiel-nieva-933807-3179911.jpg" alt="picture">
+        </div>
+        <div class="flexitem5">
+            <p class="item13">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum suscipit inventore omnis qui
+                assumenda, aperiam dignissimos expedita vero temporibus numquam!
+            </p>
+        </div>
+    </div>
+    <div class="container6">
+        <div class="flexitem7 item14">
+            <img src="./images/pexels-pablo-ezequiel-nieva-933807-3179911.jpg" alt="Picture" id="fotpic">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequuntur alias aliquid dicta illum
+                ratione.</p>
+        </div>
+        <div class="flexitem7 item15">
+            <img src="./images/pexels-pablo-ezequiel-nieva-933807-3179911.jpg" alt="Picture" id="fotpic">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequuntur alias aliquid dicta illum
+                ratione</p>
+        </div>
+    </div>
+    <div class="container7">
+        <div class="flexitem8 item16">
+             <img src="./images/pexels-pablo-ezequiel-nieva-933807-3179911.jpg" alt="Picture" id="fotpic">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequuntur alias aliquid dicta illum
+                ratione.</p>
+              
+        </div>
+        <div class="flexitem8 item17">
+              <img src="./images/pexels-pablo-ezequiel-nieva-933807-3179911.jpg" alt="Picture" id="fotpic">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequuntur alias aliquid dicta illum
+                ratione.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

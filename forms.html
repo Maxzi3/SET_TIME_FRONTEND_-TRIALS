@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container{
+        border: 2px solid;
+        padding: 2px;
+        width: 40%;
+        height: auto;
+        /* margin-top: 1rem; */
+        margin-left:24rem;
+        background-color: blueviolet;
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+        
+        }
+        p{
+            font-size: 18px;
+            text-align: center;
+            color: white;
+        }
+        .flexitem{
+            margin-top: 1rem;
+            margin-left: 9rem;
+            align-items: center;
+        }
+        label{
+            font-size: 18px;
+            color: white;
+        }
+        #input{
+            border: 1px solid black;
+            width: 60%;
+            padding: 0.2rem;
+        }
+        .submit{
+            border: 2px solid;
+            width: 60%;
+            padding: 0.4rem;
+            background-color: blueviolet;
+        }
+        .loglink{
+            font-size: 15px;
+            text-align: center;
+            margin-left: 2rem;
+            color: black;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>REGISTRATION</h1>
+        <br>
+    <p>Fill the Following.</p>
+    <div class="flexitem">
+        <form action="">
+            <label for="Firstname">Firstname:</label>
+            <br>
+            <input type="text" name="Firstname" id="input">
+            <br>
+            <br>
+            <label for="Lastname">Lastname:</label>
+            <br>
+            <input type="text" name="Lastname" id="input">
+            <br>
+            <br>
+            <label for="Username">Username:</label>
+            <br>
+            <input type="text" name="Username" id="input">
+            <br>
+            <br>
+            <label for="Phone-number">Phone-number:</label>
+            <br>
+            <input type="text" name="Phone-number" id="input">
+            <br>
+            <br>
+            <label for="Country">Country:</label>
+            <br>
+            <input type="text" name="Country" id="input">
+            <br>
+            <br>
+            <label for="E-mail">E-mail:</label>
+            <br>
+            <input type="email" name="E-mail" id="input" placeholder="@email.com">
+            <br>
+            <br>
+            <label for="Password">Password:</label>
+            <br>
+            <input type="text" name="Password" id="input">
+            <br>
+            <br>
+            <label for="Re-confirm Password">Re-confirm Password:</label>
+            <br>
+            <input type="text" name="Re-confirm Password" id="input">
+            <br>
+            <br>
+            <input type="submit" value="Register" class="submit">
+        </form>
+        </div>
+        <p class="loglink">Already Have an account? <a href="##">Log In</a></p>
+    </div>
+</body>
+</html>
